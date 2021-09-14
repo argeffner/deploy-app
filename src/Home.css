@@ -1,0 +1,133 @@
+body {
+    background: url('./gameImages/arcade.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.Title {  
+  position: absolute;
+  /* background-color: rgb(198, 142, 70); */
+  font-family: "OCR A Std, monospace";
+  font-size: 3rem;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 13px #fff,
+  0 0 21px #fff,
+  0 0 45px #0fa,
+  0 0 80px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+  /* border: 5px solid;
+  border-radius: 15px;
+  box-sizing: border-box; */
+  left: 37.5%;
+  width: 25%;
+  align-content: center;
+  margin-bottom: 15rem;
+  border-color: aqua;
+}
+
+.game1 {
+    margin: 50px;
+    position: relative;
+    color: white;
+    z-index: 2;
+    font-family: "OCR A Std, monospace";
+    font-size: 2rem;
+    left: 5%;
+    top: 10rem;
+}
+
+.score-name {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800px;
+    color: rgb(24, 9, 3);
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 13px #fff,
+    0 0 21px #fff,
+    0 0 45px #0fa,
+    0 0 80px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa,
+    0 0 250px #0fa;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 750%;
+    font-weight: 600;
+    letter-spacing: 6px;
+    line-height: 150%;
+    perspective: 400px;
+    text-align: justify;
+  }
+
+.snake-game-title {
+  text-decoration: underline;  
+}
+
+.game2 {
+    margin: 50px;
+    position: relative;
+    color: white;
+    z-index: 2;
+    font-family: "OCR A Std, monospace";
+    font-size: 2rem;
+    top: 10rem;
+}
+
+.image {
+    height: 200px;
+    width: 280px;
+    transition: all 1s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}
+
+.fade {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    top: -25px;
+    background-image: linear-gradient(0deg, transparent);
+    z-index: 1;
+  }
+
+  .crawl {
+    position: relative;
+    top: 10px;
+    transform-origin: 50% 100%;
+    animation: crawl 60s linear;
+    animation-iteration-count: infinite;
+  }
+
+  .crawl > .snake-game-title {
+    font-size: 90%;
+    text-align: center;
+  }
+
+  @keyframes crawl {
+    0% {
+      top: 0px;
+      transform: rotateX(17deg)  translateZ(0);
+    }
+    100% { 
+      top: -7200px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
+  .music {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+  }

@@ -1,0 +1,20 @@
+Snake Game process 
+
+- Create Board
+  - create a matrix 
+- Build Snake
+  - create linked list visually
+  - increase snake handler
+  - change direction handler
+- Individual cells
+  - Snake cell
+  - Food cell
+- direction key handler
+- food eating handler
+- End game handler
+  - snake eats self cell
+  - snake exits boundary
+- Score handler
+- speed button
+- board size button
+- start and reset game handler

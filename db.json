@@ -1,0 +1,31 @@
+{
+  "snake": [
+    {
+      "name": "ASD",
+      "score": "5",
+      "id": "FyMUurE"
+    },
+    {
+      "name": "jon",
+      "score": "5",
+      "id": "-fIvR7b"
+    },
+    {
+      "name": "tester-man",
+      "score": "6",
+      "id": "_mGXR7k"
+    },
+    {
+      "name": "great",
+      "score": "7",
+      "id": "W86gefQ"
+    }
+  ],
+  "pacman": [
+    {
+      "name": "corncob123",
+      "score": "10",
+      "id": "corncob123"
+    }
+  ]
+}
