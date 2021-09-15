@@ -3,7 +3,7 @@ import ArcadeScores from "../Api"
 // import {ArcadeScores1} from "../frontAPI"
 
 /** GetSnake
- * 
+ * ``````````
  * action route used for dispatching highest score data for Snake game 
  * 
  * gets data of snake in the Database 
